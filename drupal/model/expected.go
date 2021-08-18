@@ -385,6 +385,7 @@ type ExpectedMediaExtractedText struct {
 
 type ExpectedMediaRemoteVideo struct {
 	ExpectedWithName
+	UniqueId string `json:"unique_id"`
 	EmbedUrl string `json:"embed_url"`
 	MediaOf  string `json:"media_of"`
 }
